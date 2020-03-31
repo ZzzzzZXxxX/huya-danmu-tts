@@ -3,7 +3,10 @@ import sys
 import pyttsx3
 print('参数1：'+sys.argv[1],'参数2：'+sys.argv[2])
 name=sys.argv[1]
-text=sys.argv[2]
+text=''
+for i in sys.argv[2:]:
+  text=text+i
+
 
 
 
